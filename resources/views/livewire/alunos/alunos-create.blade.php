@@ -759,13 +759,10 @@
             <hr class="my-6 border-1 border-neutral-300">
             <h4 class="my-6 text-center text-xl font-semibold text-gray-700 dark:text-gray-200">DOCUMENTAÇÃO ENTREGUE</h4>
 
-            <div class="grid grid-cols-3">
-                <div>01</div>
-                <div>02</div>
-                <div>03</div>
-            </div>
             
-            <div>
+            
+            <div class="grid grid-cols-2">
+
                 <div class="mt-6 text-sm">
                     <label class="flex items-center dark:text-gray-400">
                         <input
@@ -804,7 +801,9 @@
                         </span>
                     </label>
                 </div>
+            </div>
 
+            <div class="flex flex-col md:flex-row">
                 <div class="flex mt-6 text-sm">
                     <label class="flex items-center dark:text-gray-400">
                         <input
@@ -856,8 +855,6 @@
                         </span>
                     </label>
                 </div>
-
-
             </div>
             
 
@@ -871,8 +868,6 @@
                   Salvar
                 </button>
             </div>
-
-
         </form>
 
     </div>
